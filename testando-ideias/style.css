@@ -52,7 +52,8 @@ span{
 button{
     border-radius: 1px solid white;
     cursor: pointer;
-    color:floralwhite
+    color:floralwhite;
+    background:blueviolet; 
 }
 button:hover{
     border:3px solid white;
