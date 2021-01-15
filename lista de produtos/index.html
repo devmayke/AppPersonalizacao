@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de produtos</title>
+    <style>
+        div{
+            text-align:center;
+        }
+        input{
+            width:50vw;
+            height:5vh;
+            margin:auto;
+            border:1px solid gray;
+            margin: 20px auto;
+            cursor:text
+        }
+        .lista{
+            width:50vw;
+            height:40vh;
+            margin:auto;
+            border:1px solid gray;
+            margin: 20px auto;
+            text-align: start;
+        }
+        button{
+            display:block;
+            margin:auto;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Lista de itens</h1>
+            <input type="text" class="texto">
+            <button onclick="pegar()">Adicionar</button>
+        </div>
+        <div class="lista"></div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
